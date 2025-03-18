@@ -3,4 +3,4 @@ torchvision
 torchaudio
 segmentation-models-pytorch
 matplotlib
-numpy==1.26.4
+numpy

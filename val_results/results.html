@@ -1,0 +1,109 @@
+
+        <!DOCTYPE html>
+        <html>
+        <head>
+            <title>Floor Plan GAN Validation Results</title>
+            <style>
+                body {
+                    font-family: Arial, sans-serif;
+                    max-width: 1200px;
+                    margin: 0 auto;
+                    padding: 20px;
+                }
+                h1, h2 {
+                    color: #333;
+                }
+                .result-grid {
+                    display: grid;
+                    grid-template-columns: 1fr;
+                    gap: 20px;
+                    margin-bottom: 40px;
+                }
+                .comparison {
+                    border: 1px solid #ddd;
+                    padding: 10px;
+                    border-radius: 5px;
+                }
+                .comparison img {
+                    width: 100%;
+                    height: auto;
+                }
+                .comparison h3 {
+                    text-align: center;
+                    margin-bottom: 10px;
+                }
+                .summary {
+                    margin-bottom: 30px;
+                }
+            </style>
+        </head>
+        <body>
+            <h1>Floor Plan GAN Validation Results</h1>
+            <div class="summary">
+                <p>Model checkpoint: G:\Research Papers\FloorPlan AI - GAN\best_pix2pix_smp.pth</p>
+                <p>Total validation images: 10</p>
+                <p>Generated on: 2025-03-19 02:11:18</p>
+            </div>
+            
+            <h2>Overview</h2>
+            <div class="comparison">
+                <img src="all_comparisons_grid.png" alt="All Results Grid">
+            </div>
+            
+            <h2>Individual Results</h2>
+            <div class="result-grid">
+        
+                <div class="comparison">
+                    <h3>Cat13_10i_2</h3>
+                    <img src="Cat13_10i_2_comparison.png" alt="Cat13_10i_2 comparison">
+                </div>
+            
+                <div class="comparison">
+                    <h3>Cat1_1i_2</h3>
+                    <img src="Cat1_1i_2_comparison.png" alt="Cat1_1i_2 comparison">
+                </div>
+            
+                <div class="comparison">
+                    <h3>Cat2_4i_2</h3>
+                    <img src="Cat2_4i_2_comparison.png" alt="Cat2_4i_2 comparison">
+                </div>
+            
+                <div class="comparison">
+                    <h3>Cat3_6i_2</h3>
+                    <img src="Cat3_6i_2_comparison.png" alt="Cat3_6i_2 comparison">
+                </div>
+            
+                <div class="comparison">
+                    <h3>Cat4_1i_2</h3>
+                    <img src="Cat4_1i_2_comparison.png" alt="Cat4_1i_2 comparison">
+                </div>
+            
+                <div class="comparison">
+                    <h3>Cat5_2i_2</h3>
+                    <img src="Cat5_2i_2_comparison.png" alt="Cat5_2i_2 comparison">
+                </div>
+            
+                <div class="comparison">
+                    <h3>Cat7_10i_2-1</h3>
+                    <img src="Cat7_10i_2-1_comparison.png" alt="Cat7_10i_2-1 comparison">
+                </div>
+            
+                <div class="comparison">
+                    <h3>Cat7_10i_2-6</h3>
+                    <img src="Cat7_10i_2-6_comparison.png" alt="Cat7_10i_2-6 comparison">
+                </div>
+            
+                <div class="comparison">
+                    <h3>Cat7_6_4</h3>
+                    <img src="Cat7_6_4_comparison.png" alt="Cat7_6_4 comparison">
+                </div>
+            
+                <div class="comparison">
+                    <h3>Cat8_4i_2</h3>
+                    <img src="Cat8_4i_2_comparison.png" alt="Cat8_4i_2 comparison">
+                </div>
+            
+            </div>
+        </body>
+        </html>
+        
